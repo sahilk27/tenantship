@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TenantShip</string>
+    <string name="log_me_in">Log me In</string>
 </resources>
