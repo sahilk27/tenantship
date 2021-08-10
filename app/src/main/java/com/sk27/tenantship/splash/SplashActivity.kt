@@ -8,18 +8,19 @@ import androidx.appcompat.app.AppCompatActivity
 import com.sk27.tenantship.R
 import com.sk27.tenantship.login.LoginActivity
 
+@Suppress("PrivatePropertyName")
+
 class SplashActivity : AppCompatActivity() {
 
-    private lateinit var mHandler: Handler;
+    private val DELAY_MILLIS: Long = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash_act)
-        mHandler = Handler(Looper.getMainLooper())
-        mHandler.postDelayed(Runnable {
-            var goToLogin = Intent(this,LoginActivity::class.java)
-            startActivity(goToLogin)
-        }, 1000)
-    }
 
+        Handler(Looper.getMainLooper())
+            .postDelayed(Runnable {
+                startActivity(Intent(this, LoginActivity::class.java))
+            }, DELAY_MILLIS)
+    }
 }

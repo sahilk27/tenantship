@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
-        <activity
-            android:name=".dashboard.DashboardActivity"
-            android:label="Dash" />
-
         <activity
             android:name=".splash.SplashActivity"
             android:label="Splash">
@@ -23,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:label="Dash" />
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="Login" />
+
 
     </application>
 
