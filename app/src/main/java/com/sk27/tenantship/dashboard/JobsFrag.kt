@@ -11,6 +11,7 @@ class JobsFrag : Fragment() {
 
     lateinit var binding: JobFrgBinding
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
