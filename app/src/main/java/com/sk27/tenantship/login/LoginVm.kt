@@ -9,7 +9,9 @@ class LoginVm : BaseVm() {
 
     lateinit var mUser: User
 
-    private val loginAuth: MutableLiveData<User> by lazy { MutableLiveData<User>().also { authenticateUser() } }
+    private val loginAuth: MutableLiveData<User> by lazy {
+        MutableLiveData<User>().also { authenticateUser() }
+    }
 
     private fun authenticateUser() {
         mUser = User("sahilk", "123456")

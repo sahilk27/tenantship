@@ -9,7 +9,6 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: LoginActBinding
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = LoginActBinding.inflate(layoutInflater)
@@ -17,6 +16,5 @@ class LoginActivity : AppCompatActivity() {
         setContentView(view)
         val model: LoginVm by viewModels()
         model.getUser()
-
     }
 }

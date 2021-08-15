@@ -1,0 +1,137 @@
+[
+  {
+    "tenantId": "north-delhi-01",
+    "name": "David Lee",
+    "propertyAddress": "Ashok Vihar Phase I",
+    "circleRate": 40000,
+    "rentAmount": 30000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "south-delhi-02",
+    "name": "Samantha ",
+    "propertyAddress": "Defence Colony C Block",
+    "circleRate": 60000,
+    "rentAmount": 50000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "noida-03",
+    "name": "Arnold Brook",
+    "propertyAddress": "Sector-42 B Block",
+    "circleRate": 30000,
+    "rentAmount": 20000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "Gurugram-04",
+    "name": "Stanley",
+    "propertyAddress": "Gurugram Sector 56 A Block",
+    "circleRate": 35000,
+    "rentAmount": 25000,
+    "propertyType": "commercial",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "Goa-05",
+    "name": "Shaun Murphy",
+    "propertyAddress": "Panaji Phase II D Block",
+    "circleRate": 50000,
+    "rentAmount": 35000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "west-delhi-06",
+    "name": "Peter",
+    "propertyAddress": "Rajouri Garden F Block",
+    "circleRate": 55000,
+    "rentAmount": 40000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "south-delhi-07",
+    "name": "Anderson Thomas",
+    "propertyAddress": "Vasant Kunj D Block",
+    "circleRate": 70000,
+    "rentAmount": 60000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "noida-08",
+    "name": "Charles Dickens",
+    "propertyAddress": "Sector 100 A Block",
+    "circleRate": 35000,
+    "rentAmount": 25000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "gurugram-09",
+    "name": "Robert",
+    "propertyAddress": "Palam vihar",
+    "circleRate": 3,
+    "rentAmount": 30,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "sonepat-10",
+    "name": "Joseph",
+    "propertyAddress": "Main Market",
+    "circleRate": 3,
+    "rentAmount": 30,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "north-delhi-11",
+    "name": "Ellison Edward",
+    "propertyAddress": "Model Town IInd E Block",
+    "circleRate": 60000,
+    "rentAmount": 45000,
+    "propertyType": "commercial",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "gurugram-12",
+    "name": "Michael",
+    "propertyAddress": "New Palam Vihar",
+    "circleRate": 20000,
+    "rentAmount": 15000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "east-delhi-13",
+    "name": "Richard",
+    "propertyAddress": "Shahdra",
+    "circleRate": 30000,
+    "rentAmount": 20000,
+    "propertyType": "residential",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "manali-14",
+    "name": "Jeff Mark",
+    "propertyAddress": "Laal Chowk",
+    "circleRate": 30000,
+    "rentAmount": 40000,
+    "propertyType": "commercial",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  },
+  {
+    "tenantId": "shimla-15",
+    "name": "Kenneth Musk",
+    "propertyAddress": "Mall Road Market",
+    "circleRate": 40000,
+    "rentAmount": 30000,
+    "propertyType": "commercial",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Apple_orchard_in_Tasmania.jpg"
+  }
+]
