@@ -18,7 +18,7 @@ interface TenantDao {
     fun getTenantsFlow(): Flow<List<Tenant>>
 
     @Query("SELECT * FROM tenants WHERE propertyType = :propertyType ORDER BY name")
-    fun getTenantsByPropertyType(propertyType: String)
+    fun getTenantsByPropertyTypeFlow(propertyType: String): Flow<List<Tenant>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(tenants: List<Tenant>)

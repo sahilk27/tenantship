@@ -3,6 +3,7 @@ package com.sk27.tenantship.utils
 import android.content.Context
 import androidx.annotation.VisibleForTesting
 import com.sk27.tenantship.base.AppDatabase
+import com.sk27.tenantship.base.NetworkService
 import com.sk27.tenantship.base.TenantRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
@@ -17,7 +18,7 @@ val Injector: ViewModelFactoryProvider
 
 @FlowPreview
 @ExperimentalCoroutinesApi
-private object DefaultViewModelProvider: ViewModelFactoryProvider {
+private object DefaultViewModelProvider : ViewModelFactoryProvider {
     private fun getTenantRepository(context: Context): TenantRepository {
         return TenantRepository.getInstance(
             plantDao(context),
@@ -39,7 +40,8 @@ private object DefaultViewModelProvider: ViewModelFactoryProvider {
 private object Lock
 
 @FlowPreview
-@Volatile private var currentInjector: ViewModelFactoryProvider =
+@Volatile
+private var currentInjector: ViewModelFactoryProvider =
     DefaultViewModelProvider
 
 

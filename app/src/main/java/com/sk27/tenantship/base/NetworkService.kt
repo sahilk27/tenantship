@@ -1,4 +1,4 @@
-package com.sk27.tenantship.utils
+package com.sk27.tenantship.base
 
 import com.sk27.tenantship.model.api.Tenant
 import kotlinx.coroutines.Dispatchers
@@ -19,7 +19,7 @@ class NetworkService {
 
     private val tenantShipService = retrofit.create(TenantShipService::class.java)
 
-    suspend fun allPlants(): List<Tenant> = withContext(Dispatchers.Default) {
+    suspend fun allTenants(): List<Tenant> = withContext(Dispatchers.Default) {
         delay(1500)
         val result = tenantShipService.getAllTenants()
         result.shuffled()
@@ -38,9 +38,9 @@ class NetworkService {
 }
 
 interface TenantShipService {
-    @GET("googlecodelabs/kotlin-coroutines/master/advanced-coroutines-codelab/sunflower/src/main/assets/plants.json")
+    @GET("sahilk27/tenantship/main/app/src/main/assets/tenants.json")
     suspend fun getAllTenants() : List<Tenant>
-
-    @GET("googlecodelabs/kotlin-coroutines/master/advanced-coroutines-codelab/sunflower/src/main/assets/custom_plant_sort_order.json")
+//https://raw.githubusercontent.com/sahilk27/tenantship/main/app/src/main/assets/tenants.json
+    @GET("sahilk27/tenantship/main/app/src/main/assets/property_order.json")
     suspend fun getCustomPropertySortOrder() : List<Tenant>
 }

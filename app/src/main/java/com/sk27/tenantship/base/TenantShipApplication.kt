@@ -1,6 +1,5 @@
 package com.sk27.tenantship.base
 import android.app.Application
-import com.sk27.tenantship.model.ApiService
 import dagger.hilt.android.HiltAndroidApp
 import retrofit2.Retrofit
 
@@ -14,7 +13,7 @@ class TenantShipApplication : Application() {
             .baseUrl("https://api.github.com/")
             .build()
 
-        val service: ApiService = retrofit.create<ApiService>(ApiService::class.java)
+       // val service: ApiService = retrofit.create<ApiService>(ApiService::class.java)
 
     }
 }

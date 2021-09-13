@@ -25,7 +25,6 @@ import com.sk27.tenantship.model.api.PropertyType
 import com.sk27.tenantship.model.api.Tenant
 import com.sk27.tenantship.model.api.UnknownType
 import com.sk27.tenantship.utils.ComparablePair
-import com.sk27.tenantship.utils.NetworkService
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
@@ -194,7 +193,7 @@ class TenantRepository private constructor(
      * Fetch a new list of Tenants from the network, and append them to [tenantDao]
      */
     private suspend fun fetchRecentTenants() {
-        val plants = plantService.allPlants()
+        val plants = plantService.allTenants()
         tenantDao.insertAll(plants)
     }
 

@@ -1,8 +1,10 @@
 package com.sk27.tenantship.login
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.sk27.tenantship.dashboard.DashboardActivity
 import com.sk27.tenantship.databinding.LoginActBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -16,5 +18,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(view)
         val model: LoginVm by viewModels()
         model.getUser()
+        binding.loginBtn.setOnClickListener {
+            startActivity(Intent(this, DashboardActivity::class.java))
+        }
     }
 }
