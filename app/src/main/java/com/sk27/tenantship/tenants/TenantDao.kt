@@ -1,4 +1,4 @@
-package com.sk27.tenantship
+package com.sk27.tenantship.tenants
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

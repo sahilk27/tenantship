@@ -1,29 +1,22 @@
-package com.sk27.tenantship.dashboard
+package com.sk27.tenantship.payments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.sk27.tenantship.databinding.TenantsFrgBinding
+import com.sk27.tenantship.databinding.PaymentsFrgBinding
 
-class TenantsFrag : Fragment() {
+class PaymentsFrag : Fragment() {
 
-    private lateinit var binding: TenantsFrgBinding
-
+    lateinit var binding: PaymentsFrgBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = TenantsFrgBinding.inflate(inflater, container, false)
+        binding = PaymentsFrgBinding.inflate(inflater, container, false)
         return binding.root
     }
-
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-    }
-
 }

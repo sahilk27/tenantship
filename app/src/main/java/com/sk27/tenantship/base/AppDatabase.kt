@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.sk27.tenantship.TenantDao
+import com.sk27.tenantship.tenants.TenantDao
 import com.sk27.tenantship.model.api.Tenant
 
 /*

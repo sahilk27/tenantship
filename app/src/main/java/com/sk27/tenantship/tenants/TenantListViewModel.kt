@@ -1,4 +1,4 @@
-package com.sk27.tenantship
+package com.sk27.tenantship.tenants
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -31,6 +31,7 @@ internal constructor(
         get() = _snackbar
 
     private val _spinner = MutableLiveData<Boolean>(false)
+
     /**
      * Show a loading spinner if true
      */
