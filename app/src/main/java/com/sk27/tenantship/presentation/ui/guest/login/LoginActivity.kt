@@ -1,13 +1,13 @@
-package com.sk27.tenantship.login
+package com.sk27.tenantship.presentation.ui.guest.login
 
 import android.content.Intent
 import android.os.Bundle
+import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
-import com.sk27.tenantship.dashboard.DashboardActivity
-import com.sk27.tenantship.databinding.LoginActBinding
+import com.example.myapplication2.databinding.LoginActBinding
+import com.sk27.tenantship.presentation.ui.authorised.dashboard.DashboardActivity
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : ComponentActivity(){
 
     private lateinit var binding: LoginActBinding
 

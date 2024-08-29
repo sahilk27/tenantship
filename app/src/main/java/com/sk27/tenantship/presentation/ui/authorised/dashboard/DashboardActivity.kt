@@ -1,4 +1,4 @@
-package com.sk27.tenantship.dashboard
+package com.sk27.tenantship.presentation.ui.authorised.dashboard
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

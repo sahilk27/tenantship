@@ -7,6 +7,6 @@
     app:startDestination="@id/tenantsFrag">
     <fragment
         android:id="@+id/tenantsFrag"
-        android:name="com.sk27.tenantship.tenants.TenantsFrag"
+        android:name="com.sk27.tenantship.presentation.ui.authorised.tenants.TenantsFrag"
         android:label="TenantsFrag" />
 </navigation>

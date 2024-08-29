@@ -1,9 +1,9 @@
-package com.sk27.tenantship.login
+package com.sk27.tenantship.presentation.ui.guest.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.sk27.tenantship.base.BaseVm
-import com.sk27.tenantship.model.api.User
+import com.sk27.tenantship.data.entity.User
 
 class LoginVm : BaseVm() {
 

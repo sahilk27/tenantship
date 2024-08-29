@@ -1,4 +1,4 @@
-package com.sk27.tenantship.model.api
+package com.sk27.tenantship.data.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -11,11 +11,17 @@ data class Tenant(
     val propertyAddress: String,
     val circleRate: Int,
     val rentAmount: Int,
+    var android: Int,
     val propertyType: String,
-    val imageUrl: String = ""
 ) {
     override fun toString() = name
 }
 
-inline class PropertyType(val propertyType: String)
+@JvmInline
+value class PropertyType(val propertyType: String)
+
 val UnknownType = PropertyType("Unknown")
+
+fun drop(random: (String, Int) -> Unit) {
+
+}

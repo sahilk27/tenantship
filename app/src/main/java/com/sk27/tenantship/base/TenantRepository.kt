@@ -20,10 +20,10 @@ import androidx.annotation.AnyThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import androidx.lifecycle.map
-import com.sk27.tenantship.tenants.TenantDao
-import com.sk27.tenantship.model.api.PropertyType
-import com.sk27.tenantship.model.api.Tenant
-import com.sk27.tenantship.model.api.UnknownType
+import com.sk27.tenantship.presentation.ui.authorised.tenants.TenantDao
+import com.sk27.tenantship.data.entity.PropertyType
+import com.sk27.tenantship.data.entity.Tenant
+import com.sk27.tenantship.data.entity.UnknownType
 import com.sk27.tenantship.utils.ComparablePair
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*

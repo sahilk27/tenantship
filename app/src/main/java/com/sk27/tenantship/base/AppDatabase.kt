@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.sk27.tenantship.tenants.TenantDao
-import com.sk27.tenantship.model.api.Tenant
+import com.sk27.tenantship.presentation.ui.authorised.tenants.TenantDao
+import com.sk27.tenantship.data.entity.Tenant
 
 /*
 * The Room database for this app

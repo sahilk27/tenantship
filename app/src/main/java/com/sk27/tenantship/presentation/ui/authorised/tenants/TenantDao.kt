@@ -1,11 +1,11 @@
-package com.sk27.tenantship.tenants
+package com.sk27.tenantship.presentation.ui.authorised.tenants
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.sk27.tenantship.model.api.Tenant
+import com.sk27.tenantship.data.entity.Tenant
 import kotlinx.coroutines.flow.Flow
 
 @Dao

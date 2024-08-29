@@ -1,4 +1,4 @@
-package com.sk27.tenantship.payments
+package com.sk27.tenantship.presentation.ui.authorised.payments
 
 import android.os.Bundle
 import android.view.LayoutInflater

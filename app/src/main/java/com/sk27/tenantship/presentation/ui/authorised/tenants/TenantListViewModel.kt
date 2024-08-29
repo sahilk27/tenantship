@@ -1,4 +1,4 @@
-package com.sk27.tenantship.tenants
+package com.sk27.tenantship.presentation.ui.authorised.tenants
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

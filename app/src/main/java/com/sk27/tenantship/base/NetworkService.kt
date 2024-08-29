@@ -1,6 +1,6 @@
 package com.sk27.tenantship.base
 
-import com.sk27.tenantship.model.api.Tenant
+import com.sk27.tenantship.data.entity.Tenant
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
@@ -22,6 +22,7 @@ class NetworkService {
     suspend fun allTenants(): List<Tenant> = withContext(Dispatchers.Default) {
         delay(1500)
         val result = tenantShipService.getAllTenants()
+
         result.shuffled()
     }
 
