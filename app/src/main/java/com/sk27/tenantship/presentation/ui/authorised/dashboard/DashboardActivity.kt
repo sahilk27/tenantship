@@ -10,4 +10,5 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dash_act)
     }
+
 }

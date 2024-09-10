@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
-import com.example.myapplication2.databinding.LoginActBinding
+import com.sk27.tenantship.databinding.LoginActBinding
 import com.sk27.tenantship.presentation.ui.authorised.dashboard.DashboardActivity
 
 class LoginActivity : ComponentActivity(){

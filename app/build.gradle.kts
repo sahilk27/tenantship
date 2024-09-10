@@ -1,14 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.google.devtool.ksp)
+    alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.hilt)
 }
 
 android {
-    namespace = "com.example.myapplication2"
+    namespace = "com.sk27.tenantship"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapplication2"
+        applicationId = "com.sk27.tenantship"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -61,6 +64,21 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.room)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.kotlinx.coroutines)
+    implementation(libs.appcompat)
+    implementation(libs.retrofit)
+    implementation(libs.gson.converter)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.hilt.android)
+    testImplementation(libs.junit.jupiter)
+
+    annotationProcessor(libs.androidx.room.compiler)
+    ksp(libs.androidx.room.compiler)
+    ksp(libs.hilt.compiler)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

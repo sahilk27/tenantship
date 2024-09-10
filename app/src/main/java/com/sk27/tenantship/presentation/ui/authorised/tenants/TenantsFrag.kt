@@ -15,7 +15,7 @@ class TenantsFrag : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = TenantsFrgBinding.inflate(inflater, container, false)
         return binding.root
     }

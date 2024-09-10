@@ -7,7 +7,6 @@ import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.sk27.tenantship.R
 import com.sk27.tenantship.presentation.ui.guest.login.LoginActivity
-import javax.net.ssl.TrustManager
 
 @Suppress("PrivatePropertyName")
 
@@ -24,5 +23,4 @@ class SplashActivity : AppCompatActivity() {
                 startActivity(Intent(this, LoginActivity::class.java))
             }, DELAY_MILLIS)
     }
-
 }
